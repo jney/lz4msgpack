@@ -1,0 +1,27 @@
+version: 2.1
+
+jobs:
+  test-go-1-23:
+    docker:
+      - image: cimg/go:1.23
+    steps:
+      - checkout
+      - run:
+          name: Run tests
+          command: go test -v
+
+  test-go-1-22:
+    docker:
+      - image: cimg/go:1.22
+    steps:
+      - checkout
+      - run:
+          name: Run tests
+          command: go test -v
+
+workflows:
+  version: 2
+  test-multiple-versions:
+    jobs:
+      - test-go-1-23
+      - test-go-1-22
