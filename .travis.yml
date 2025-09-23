@@ -1,6 +1,0 @@
-language: go
-go:
-  - "1.23.x"
-  - "1.22.x"
-script:
-  - go test -v
