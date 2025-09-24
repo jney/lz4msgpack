@@ -85,7 +85,7 @@ func unmarshal(data []byte, v interface{}, unmarshaler func([]byte, interface{})
 		typeCodeOffset = 1
 	}
 
-	if data[typeCodeOffset] != extCodeLz4 {
+	if len(data) <= int(typeCodeOffset) || data[typeCodeOffset] != extCodeLz4 {
 		return unmarshaler(data, v)
 	}
 

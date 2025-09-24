@@ -1,4 +1,4 @@
-github.com/pierrec/lz4/v4 v4.1.6 h1:ueMTcBBFrbT8K4uGDNNZPa8Z7LtPV7Cl0TDjaeHxP44=
-github.com/pierrec/lz4/v4 v4.1.6/go.mod h1:gZWDp/Ze/IJXGXf23ltt2EXimqmTUXEy0GFuRQyBid4=
-github.com/shamaton/msgpack/v2 v2.0.0 h1:qaFDySYUa5LPaWNBQc9wA72YGaNts86aW9364i8ztGM=
-github.com/shamaton/msgpack/v2 v2.0.0/go.mod h1:aTUEmh31ziGX1Ml7wMPLVY0f4vT3CRsCvZRoSCs+VGg=
+github.com/pierrec/lz4/v4 v4.1.22 h1:cKFw6uJDK+/gfw5BcDL0JL5aBsAFdsIT18eRtLj7VIU=
+github.com/pierrec/lz4/v4 v4.1.22/go.mod h1:gZWDp/Ze/IJXGXf23ltt2EXimqmTUXEy0GFuRQyBid4=
+github.com/shamaton/msgpack/v2 v2.3.1 h1:R3QNLIGA/tbdczNMZ5PCRxrXvy+fnzsIaHG4kKMgWYo=
+github.com/shamaton/msgpack/v2 v2.3.1/go.mod h1:6khjYnkx73f7VQU7wjcFS9DFjs+59naVWJv1TB7qdOI=
